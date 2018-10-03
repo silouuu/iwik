@@ -7,4 +7,6 @@ Font titre / gras
     font-family: 'coolvetica';
     
     
-Couleurs : 
+Couleurs bleu clair
+    background-color: #bfd6cf;
+    
