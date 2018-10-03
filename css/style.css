@@ -1,0 +1,128 @@
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'geosanslightregular';
+    font-size: 3rem;
+
+}
+h1{
+    margin-top: 25%;
+    width: 80%;
+}
+h1 img{
+    width: 100%;
+}
+.background {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -3;
+    height: 55%;
+    width: 100%;
+    background-color: #bfd6cf;
+}
+main{
+    width: 55%;
+    margin-top: 5%;
+}
+main h2 {
+    font-family: 'coolvetica';
+    font-size: 2.8rem;
+}
+main p {
+    font-size: 1.2rem;
+}
+.contact{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    max-width: 215px;
+    height: 10%;
+/*    background-color: cadetblue;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 10px;
+}
+.contact a {
+    height: 60%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.contact .fleche{
+    width: 10%;
+    height: auto;
+    position: relative;
+    bottom: 15px;
+}
+.contact a img{
+    height: 60%;
+    
+    width: auto;
+}
+.contact p{
+    font-size: 0.8rem;
+    font-family: 'geosanslightregular';
+}
+
+
+@media (min-width: 768px ){
+    body{
+        flex-direction: row;
+        justify-content: center;
+    }
+    main{
+        width: 35%;
+        margin-top: 13%;
+    }
+    main h2{
+        font-size: 4rem;
+    }
+    main p{
+        font-size: 1.5rem;
+    }
+    h1 {
+        margin: 0;
+        text-align: center;
+        width: 55%;
+        max-width: 425px;
+    }
+    h1 img{
+        width: 100%;
+    }
+    .background{
+        left: auto;
+        right: 0;
+        height: 100%;
+        width: 60%;  
+    }
+    .contact{
+        max-width: 335px;
+    }
+    .contact p{
+        font-size: 1.2rem;
+    }
+    .contact .fleche {
+        width: 10%;
+        bottom: 20px;
+    }
+    .contact a {
+        margin: 0px 10px;
+    }
+}
+
+@media (min-width: 768px ){
+    
+}
+
+
+
+
+
