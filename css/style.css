@@ -65,9 +65,15 @@ main p {
 }
 .contact a img{
     height: 60%;
-    
     width: auto;
+    transition: all .2s ease-in-out;
+
 }
+.contact a img:hover{
+    transform: scale(1.3);
+}
+
+
 .contact p{
     font-size: 0.8rem;
     font-family: 'geosanslightregular';
