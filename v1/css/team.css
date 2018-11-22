@@ -1,0 +1,104 @@
+main{
+    position: relative;
+        overflow: hidden;
+}
+section{
+    height: inherit;
+    min-height: 70vh;
+    background: linear-gradient(#F1CF39 60%, white 40%);
+    justify-content: space-around;
+    padding: 20% 0 10% 0;
+}
+section img{
+    width: 70%;
+    max-width: 300px;
+    z-index: 3;
+}
+section img:nth-of-type(2){
+    width: 8%;
+}
+section h2{
+    background-color: #274B36;
+    color: white;
+    padding: 10px 30px;
+    width: 60%;
+    max-width: 250px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    z-index: 5;
+    font-size: 1.7rem;
+}
+section h3{
+    font-family: inherit;
+    text-align: center;
+    margin-top: 10px;
+    z-index: 5;
+    
+}
+section h3 span{
+    display: block;
+}
+.feuille1, .feuille3{
+    position: absolute;
+    transform: rotate(180deg);
+    top: 13%;
+    left: -65%;
+    z-index: 0;
+    width: 125%;
+}
+.feuille2{
+    position: absolute;
+    top: 62%;
+    right: -60%;
+    
+}
+.feuille3{
+    top: 140%;
+}
+@media(min-width:800px){
+    body{
+        background: linear-gradient(#F1CF39 50%, white 40%);
+    }
+    main{
+        
+        display: flex;
+        height: 100vh;
+        align-items: center;
+    }
+    section{
+        height: 100vh;
+        max-height: 500px;
+        min-height: 70vh;
+        background: linear-gradient(#F1CF39 50%, white 40%);
+        justify-content: space-around;
+        padding: 15% 0 10% 0;
+    }
+    section h2{ 
+        font-size: 1.9rem;
+    }
+    section h3{
+        font-size: 1.8rem;
+    }
+    .feuille1{
+        top: -15%;
+        left: -59%;
+        z-index: 0;
+        width: 85%;
+    }
+    .feuille2{
+        top: 32%;
+        right: -5%;
+        width: 60%;
+        transform: rotate(-30deg);
+    }
+}
+@media(min-width:800px) and (min-height:500px){
+    section h2{
+         bottom: 8%;
+    }
+    .feuille2{
+        top: 45%;
+        
+    }
+}
