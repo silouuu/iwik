@@ -1,0 +1,72 @@
+/* Regles generales */
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+   
+    font-size: 1.4rem;            /* 14px par défaut */
+}
+
+a, a:hover, a:visited{
+    color: black;
+    text-decoration: none;
+}
+img{
+    max-width:100%;
+    height: auto;
+}
+
+
+  /*********************************/
+ /* REGLES GENERALES TOUTES PAGES */
+/*********************************/
+
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    font-family: 'geosanslight';
+}
+h1, h2, h3{
+    font-family: 'coolvetica';
+}
+h2{
+    font-size: 2rem;
+    color: #274B36;
+}
+@media(min-width:800px){
+    h2{
+        font-size: 2.5rem;
+    }
+    body,a{
+        font-size: 1.4rem;
+    }
+}
+
+
+#iwik{
+    
+}
+#agency{
+
+}
+#services{
+
+}
+#projects{
+}
+
+
+
+
+

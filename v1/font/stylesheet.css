@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url('coolvetica_rg-webfont.woff2') format('woff2'),
+         url('coolvetica_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'geosanslight';
+    src: url('geosanslight-webfont.woff2') format('woff2'),
+         url('geosanslight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'geosanslightitalic';
+    src: url('geosanslight-oblique-webfont.woff2') format('woff2'),
+         url('geosanslight-oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
