@@ -4,7 +4,7 @@ main{
 }
 section{
     height: inherit;
-    min-height: 70vh;
+    max-height: 500px;
     background: linear-gradient(#F1CF39 60%, white 40%);
     justify-content: space-around;
     padding: 20% 0 10% 0;
@@ -13,6 +13,10 @@ section img{
     width: 70%;
     max-width: 300px;
     z-index: 3;
+}
+section a{
+    width: 40px;
+    z-index: 10;
 }
 section img:nth-of-type(2){
     width: 8%;
@@ -28,6 +32,12 @@ section h2{
     bottom: 20px;
     z-index: 5;
     font-size: 1.7rem;
+}
+section:nth-of-type(2) h2{
+    background-color: #BFD6CF;
+}
+section:nth-of-type(3) h2{
+    background-color: #F1CF39;
 }
 section h3{
     font-family: inherit;
@@ -68,8 +78,10 @@ section h3 span{
     }
     section{
         height: 100vh;
+/*
         max-height: 500px;
         min-height: 70vh;
+*/
         background: linear-gradient(#F1CF39 50%, white 40%);
         justify-content: space-around;
         padding: 15% 0 10% 0;
@@ -102,3 +114,18 @@ section h3 span{
         
     }
 }
+@media(min-width:1400px){
+    main{
+        padding: 0 7vw;
+    }
+    section img{
+        max-width: inherit;
+    }
+}
+
+
+
+
+
+
+
