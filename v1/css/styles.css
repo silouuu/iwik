@@ -129,6 +129,10 @@ nav ul {
     box-shadow: #4a4a4aa1 4px 0px 20px 1px;
     z-index: 50;
 }
+.particles-js-canvas-el{
+    position: absolute;
+    top: 0;
+}
 nav ul li {
     margin: 10% 0;
 }
