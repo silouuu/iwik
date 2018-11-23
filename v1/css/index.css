@@ -51,7 +51,6 @@
 }
 #agency a:hover{
     transform: scale(1.1);
-    
 }
 #agency .trait{
     display: none;

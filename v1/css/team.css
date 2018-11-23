@@ -17,6 +17,11 @@ section img{
 section a{
     width: 40px;
     z-index: 10;
+    transition: transform .2s;
+}
+section a:hover{
+    transform: scale(1.1);
+}
 }
 section img:nth-of-type(2){
     width: 8%;
