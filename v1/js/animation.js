@@ -3,6 +3,7 @@ $(document).ready(function () {
     // ANIMATION SCROLL
   	$('#fullpage').fullpage({
 		anchors: ['_iwik', '_agency', '_services', '_projects'],
+        fixedElements: '#header',
 		navigation: false,
 		verticalCentered: false,	
 	});
