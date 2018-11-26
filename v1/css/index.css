@@ -89,13 +89,23 @@
   /************/
  /* SERVICES */
 /************/
-
+#services>a{
+    position: absolute;
+    bottom: 20px;
+    /* right: -38px; */
+    background-color: #607D8B;
+    font-size: 5rem;
+    color: white;
+}
 #services{
     width: 500vw;
     flex-direction: row;
     background-image: url(../img/feuillagefrise.png);
     background-size: cover;
     background-position: bottom;
+    transition: left .2s;
+/*    transition: transform .2s;*/
+    
 }
 #services article{
     width: 85%;
@@ -155,7 +165,8 @@
     background-color: #D29A2C;
     color: white;
 }
-
+#services .btn{
+}
 
 @media(min-width:800px){
     #services{
@@ -198,6 +209,7 @@
   /************/
  /* PROJECTS */
 /************/
+
 #projects h2{
     position: absolute;
     color: white;

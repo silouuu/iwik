@@ -7,11 +7,18 @@ $(document).ready(function () {
 		navigation: false,
 		verticalCentered: false,	
 	});
+    $('.btn').click(function(){
+        $('#services').css('left','-55vw');
+        //$('#services').css('transform','translateX(-55vw)');
+    });
+    
     
     // ANIMATION BURGER
     $('#burger').click(function(){
         $('nav').toggleClass('active');
     });
+    
+    
     
     // PEPIN ANIM
     particlesJS.load('pepin','pepin.json'); 
