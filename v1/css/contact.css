@@ -1,0 +1,111 @@
+main{
+    display: flex;
+    height: 70vh;
+    color: #274B36;
+}
+main a{
+    color: #274B36;
+}
+h1{
+    width: 250px;
+    font-size: 2rem;
+    background-color: #D29A2C;
+    text-transform: uppercase;
+    position: absolute;
+    padding: 5px 15px;
+    top: 75px;
+}
+main .contact{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 10px;
+    padding-top: 30%;
+}
+main .contact a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #274B36;
+}
+main .contact a i{
+    font-size: 2rem;
+    margin-right: 5px;
+}
+span{
+    display: block;
+}
+main p:first-of-type span{
+    font-family: 'coolvetica';
+}
+.img{
+    width: 40%;
+    background-image: url(../img/feuillecontact.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+section{
+    justify-content: flex-start;
+    height: inherit;
+    margin-bottom: 10%;
+}
+section iframe{
+    margin: 10% 0;
+    height: 40vh;
+}
+address{
+    width: 60%;
+    max-width: 200px;
+    line-height: 1.5;
+}
+address h2{
+    border-bottom: 1px solid #274B36;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+}
+address span{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+@media(min-width:800px){
+    body{
+        display: flex;
+    }
+    main{
+        height: 100vh;
+        width: 60vw;
+    }
+    main h1{
+        font-size: 2.5rem;
+        width: 35%;
+        padding: 5px 25px;
+    }
+    main .contact{
+        padding: 30% 5% 15% 5%;
+    }
+    .img{
+        width: 70%;
+    }
+    section{
+        flex-direction: column-reverse;
+        width: 40vw;
+/*        justify-content: space-between;*/
+        margin-bottom: inherit;
+    }
+    section address{
+        margin-bottom: 10%;
+    }
+    section iframe{
+        height: 60vh;
+        margin: inherit;
+        margin-left: 10%;
+    }
+}
+
+
+
+
+
