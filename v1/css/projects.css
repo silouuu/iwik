@@ -1,3 +1,68 @@
   /************/
  /* PROJECTS */
 /************/
+
+#projects h2{
+    position: absolute;
+    color: white;
+    z-index: 4;
+    top: 10%;
+    left: 10%;
+}
+#projects article{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #274B36;
+}
+#projects article:nth-of-type(2){
+    background-color: #D29A2C;
+}
+#projects a:nth-of-type(1){
+    width: 60%;
+    max-width: 255px;
+}
+#projects a:nth-of-type(1):hover{
+    -webkit-animation: anim .5s .2s ease;
+    animation: anim .5s .2s ease;
+}
+
+
+#projects article a:nth-of-type(2){
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    transition: transform .2s;
+}
+#projects a:nth-of-type(2):hover{
+    transform: translateX(10px);
+    
+}
+@media(min-width:500px){
+    #projects article a:nth-of-type(2){
+        right: 20%;   
+    }
+}
+@media(min-width:800px){
+    #projects{
+        flex-direction: row;
+    }
+    #projects article{
+        height: 100%;
+    }
+    #projects article a:nth-of-type(2){
+        bottom: 50px;
+        right: 50px;
+        font-size: 2rem;
+    }
+    #projects a:nth-of-type(1){
+        max-width: 350px;
+    }
+}

@@ -1,0 +1,137 @@
+/*******************/
+/* PROJECT COMMUN */
+/*****************/
+h2{
+    font-size: 2rem;
+    color: #274B36;
+    margin: 10%;
+}
+h1 {
+    width: 250px;
+    font-size: 2rem;
+    background-color: #D29A2C;
+    color: #274B36;
+    text-transform: uppercase;
+    position: absolute;
+    padding: 5px 15px;
+    top: 100px;
+    left: 0;
+}
+section{
+    height: inherit;
+}
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10%;
+    margin-top: 170px;
+}
+.presentation article{
+    text-align: justify;
+}
+.services>div{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services figure{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.services figure img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #BFD6CF;
+}
+.services figcaption{
+    margin-top: 10px;
+}
+
+.logo>div, .moodboard>div, .mockup>div{
+    width: 100vw;
+    height: 30vh;
+    background-color: #D29A2C;
+}
+
+.chartegraphique>div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.chartegraphique figure{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5%;
+    background-color: #4cb132;
+}
+.chartegraphique figure:nth-of-type(2){
+    background-color: #82a1a6;
+}
+.chartegraphique>div:nth-of-type(2){
+    justify-content: space-between;
+}
+.chartegraphique article{
+    width: 45%;
+    text-align: center;
+}
+.chartegraphique article h4{
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+@media (min-width: 750px){
+    .presentation{
+        margin-top: 250px;
+    }
+    main h1 {
+        font-size: 3rem;
+        width: 350px;
+        padding: 5px 25px;
+    }
+    h2{
+        margin: 5%;
+        font-size: 2.5rem;
+    }
+    .presentation article{
+        width: 60%;
+    }
+    .services>div{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .logo>div, .moodboard>div, .mockup>div{
+        height: 45vh;
+    }
+    .chartegraphique figure {
+        width: 80px;
+        height: 80px;
+    }
+    
+}
+@media (min-width: 1000px){
+    .logo>div, .moodboard>div, .mockup>div{
+        width: 80vw;
+    }
+}
+
+
+
+
+/***********/
+/* COSMOS */
+/*********/
+
+
+
+
+
+/********/
+/* LDA */
+/******/

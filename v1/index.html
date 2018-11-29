@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>IWIK WebSite</title>
+    <title>iwik - Studio digital hyper vitaminé</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <link rel="icon" type="image/png" href="./img/favicon.png"> 
     
@@ -26,12 +26,18 @@
 <body>
 <div id="fullpage">
     <header id="header">
-        <img id='burger' src="./img/menuburger.svg" alt="">
+        <svg id="burger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 283.5" height="283.5" width="283.5"><g class="nc-icon-wrapper js-transition-icon" data-effect="rotate" data-event="click">
+        <g class="js-transition-icon__state" style=""><path id="XMLID_3_" class="st0" d="M242.9,60c0,0-55.2-31.2-116.7-34.3c-21.3-1.5-42.6,2.2-62.2,10.5c-16.2,7.4-31,19.4-15.7,35.8
+	c7.2,7.1,16.2,12.2,26,14.6C99.8,94,158.5,101.7,242.9,60z"></path><path id="XMLID_2_" class="st0" d="M41.6,141.2c0,0,55.2,31.2,116.7,34.3c21.4,1.5,42.8-2.2,62.5-10.6c16.2-7.6,30.9-19.4,15.7-35.8
+	c-7.2-7.1-16.2-12.2-26-14.7C184.7,107.1,126.1,99.4,41.6,141.2z"></path><path id="XMLID_1_" class="st0" d="M242.9,226.7c0,0-55.2-31.2-116.7-34.3c-21.3-1.4-42.6,2.2-62.2,10.5
+	c-16.2,7.6-31,19.5-15.7,35.8c7.2,7.1,16.2,12.2,26,14.7C99.8,260.8,158.5,268.4,242.9,226.7z"></path></g><g class="js-transition-icon__state" aria-hidden="true" style="display: none;"><line id="XMLID_2_" class="st1" x1="54.7" y1="53.6" x2="227.9" y2="226.9"></line><line id="XMLID_1_" class="st1" x1="227.9" y1="53.6" x2="54.7" y2="226.9"></line></g></g>
+       <script>!function(){"use strict";if(!window.requestAnimationFrame){var a=null;window.requestAnimationFrame=function(t,i){var e=(new Date).getTime();a||(a=e);var s=Math.max(0,16-(e-a)),n=window.setTimeout(function(){t(e+s)},s);return a=e+s,n}}function r(t,i,e,s){return 1&gt;(t/=s/2)?e/2*t*t*t*t+i:-e/2*((t-=2)*t*t*t-2)+i}function e(t){return t?[1,0]:[0,1]}function t(t){this.element=t,this.svg=function t(i){var e=i.parentNode;if("svg"!==e.tagName)e=t(e);return e;}(this.element),this.getSize(),this.states=this.element.querySelectorAll(".js-transition-icon__state"),this.time={start:null,total:200},this.status={interacted:!1,animating:!1},this.animation={effect:this.element.getAttribute("data-effect"),event:this.element.getAttribute("data-event")},this.init()}t.prototype.getSize=function(){var t=this.svg.getAttribute("viewBox");this.size=t?{width:t.split(" ")[2],height:t.split(" ")[3]}:this.svg.getBoundingClientRect()},t.prototype.init=function(){var t=this;this.svg.addEventListener(t.animation.event,function(){t.status.animating||(t.status.animating=!0,window.requestAnimationFrame(t.triggerAnimation.bind(t)))})},t.prototype.triggerAnimation=function(t){var i=this.getProgress(t);this.animateIcon(i),this.checkProgress(i)},t.prototype.getProgress=function(t){return this.time.start||(this.time.start=t),t-this.time.start},t.prototype.checkProgress=function(t){if(this.time.total&gt;t)window.requestAnimationFrame(this.triggerAnimation.bind(this));else{this.status={interacted:!this.status.interacted,animating:!1},this.time.start=null;var i=e(this.status.interacted);this.states[i[0]].removeAttribute("aria-hidden"),this.states[i[1]].setAttribute("aria-hidden","true")}},t.prototype.animateIcon=function(t){if(t&gt;this.time.total){t=this.time.total;}if(0&gt;t){t=0;};var i=e(this.status.interacted);this.states[i[0]].style.display=t&gt;this.time.total/2?"none":"block",this.states[i[1]].style.display=t&gt;this.time.total/2?"block":"none","scale"==this.animation.effect?this.scaleIcon(t,i[0],i[1]):this.rotateIcon(t,i[0],i[1])},t.prototype.scaleIcon=function(t,i,e){var s=r(Math.min(t,this.time.total/2),1,-.2,this.time.total/2).toFixed(2),n=r(Math.max(t-this.time.total/2,0),.2,-.2,this.time.total/2).toFixed(2);this.states[i].setAttribute("transform","translate("+this.size.width*(1-s)/2+" "+this.size.height*(1-s)/2+") scale("+s+")"),this.states[e].setAttribute("transform","translate("+this.size.width*n/2+" "+this.size.height*n/2+") scale("+(1-n)+")")},t.prototype.rotateIcon=function(t,i,e){var s=r(t,0,180,this.time.total).toFixed(2);this.states[i].setAttribute("transform","rotate(-"+s+" "+this.size.width/2+" "+this.size.height/2+")"),this.states[e].setAttribute("transform","rotate("+(180-s)+" "+this.size.width/2+" "+this.size.height/2+")")};var i=document.querySelectorAll(".js-transition-icon");if(i)for(var s=0;i.length&gt;s;s++)new t(i[s])}();</script></svg>
+        
         <nav>
             <ul id="pepin">
                 <li> <a href="#iwik">Accueil</a></li>
                 <li> <a href="./team.html">L'équipe</a></li>
-                <li> <a href="./project.html">Projets</a></li>
+                <li> <a href="./projects.html">Projets</a></li>
                 <li> <a href="./contact.html">Contact</a></li>
                 <div>
                     <a href="https://www.instagram.com/iwik.studio/"><i class="fab fa-instagram"></i></a>
@@ -44,6 +50,7 @@
 
     <section class="section" id="iwik">
 <!--        <h1></h1> logo -->
+   
     </section>
    
    <section class="section" id="agency">
@@ -52,15 +59,16 @@
        </div>
        <main>
            <h2>L'agence</h2>
-           <p>Sed i nati sunt non reputantium, sed tamquam indulta licentia vitiis ad errores lapsorum, beate perfecta ratione vieturo ante alia patriam esse convenit gloriosam.</p>
-           <p>Illud autem non dubitatur quod cum esset aliquando virtutum omnium domicilium Roma, ingenuos advenas plerique nobilium, ut Homerici bacarum suavitate Lotophagi, abant.</p>
+           <p>Frais et dynamique, notre studio iwik vous promet de repousser sans cesse les limites et de toujours vous offrir des résultats des plus vitaminés. Notre originalité est le fruit de nos profils hétéroclite. Associé à votre entreprise, nous ferons mûrir vos idées en projets concrets et authentique.</p>
+           <p>Notre principale préoccupation est la satisfaction de nos clients. C’est pourquoi nous nous engageons pleinement dans votre entreprise afin de cultiver, ensemble, un projet qui vous correspond entièrement. Adeptes des méthodes agiles, nous vous impliquons dans nos productions afin de répondre à votre demande rapidement et de manière optimale. </p>
            <a href="./team.html">L'équipe iwik.</a>
            <div class="trait"></div>
         </main>
    </section>
    
    <section class="section" id="services">
-        <a class="btn" href="#end">--></a>
+        <a class="btn_g" href="#end">--></a>
+        <a class="btn_d" href="#end">--</a>
         <section>
             <h2>Nos services</h2>
             <article class="carte">
@@ -74,7 +82,7 @@
             <article class="flyer">
                 <img class="services_img" src="./img/servicesflyer.png" alt="">
                 <h3 class="services_h3" >Flyer</h3>
-                <p class="services_p" >qui eum adulabili sermone seriis admixto solus omnium proficisci pellexit vultu adsimulato saepius </p>
+                <p class="services_p" >Notre approche nous permet de cerner avec précision votre cible afin de vous proposer des supports de communication spécifiques à chacun de vos projets.</p>
             </article>
         </section>
         <section>
@@ -106,12 +114,12 @@
    <section class="section" id="projects">
        <h2>Nos clients</h2>
         <article>
-            <a href=""><img src="./img/cosmosvisuel.png" alt=""></a>
-            <a href="">découvrir &gt;</a>
+            <a href="./cosmos.html"><img src="./img/cosmosvisuel.png" alt=""></a>
+            <a href="./cosmos.html">découvrir &gt;</a>
         </article>
         <article>
-           <a href=""><img src="./img/ldavisuel.png" alt=""></a>
-            <a href="">découvrir &gt;</a>
+           <a href="./lda.html"><img src="./img/ldavisuel.png" alt=""></a>
+            <a href="./lda.html">découvrir &gt;</a>
         </article>
    </section>
     

@@ -54,19 +54,6 @@ h2{
 }
 
 
-#iwik{
-    
-}
-#agency{
-
-}
-#services{
-
-}
-#projects{
-}
-
-
   /**********/
  /* HEADER */
 /**********/
@@ -79,22 +66,22 @@ header nav img{
     z-index: 20;
 }
 .logo_accueil {
-    width: 80px;
+    width: 55px;
     position: fixed;
     transform: rotate(-90deg);
-    right: -5px;
-    top: 45px;
+    right: 5px;
+    top: 30px;
     z-index: 20;
 }
 header #burger{ 
     position: fixed;
-    width: 35px;
+    height: 50px;
+    width: 50px;
     top: 20px;
     left: 20px;
     cursor: pointer;
     z-index: 50;
 }
-
 
   /********/
  /* MENU */
@@ -123,7 +110,6 @@ nav ul {
     transition: all 0.5s linear;
     text-align: center;
     font-size: 3rem;
-    background: #D29A2C;
     background: #bdd6cf;
     color: white;
     box-shadow: #4a4a4aa1 4px 0px 20px 1px;
@@ -140,6 +126,7 @@ nav ul li {
 nav .fa-instagram{
     font-size: 4rem;
     margin-bottom: 10px;
+    color: #274B36;
 }
 nav ul li a, nav ul li a:visited{
     color: white;
@@ -154,46 +141,15 @@ nav div{
     align-content: center;
     width: 100%;
     height: 50vw;
-    background-color: #BFD6CF;
     color: #274B36;
     padding: 10%;
+    z-index: 50;
 }
 .active ul{
     left: 0;
 }
-nav input:checked~ul {
-    left:0;
-}
-
 nav p{
     font-size: 2rem;
-}
-
-nav label::before {
-    content: 'menu';
-/*    content: url(../img/menuburger.svg);*/
-    color: white;
-    font-size: 3rem;
-}
-
-nav input:checked~label::before {
-/*    content: url(../img/croixmenu.svg);*/
-    content: 'croix';
-}
-
-nav input{
-    display: none;
-}
-
-nav input:checked ~ ul{
-    display:flex;
-}
-
-nav label{
-    height: inherit;
-    display: flex;
-    align-items: center;
-    padding: 0 2vw; 
 }
 @media screen and (min-width: 800px){
     nav ul{
@@ -208,9 +164,33 @@ nav label{
         font-size: 3rem;
     }
 }
+.st0{fill:#010202;stroke:#010202;stroke-width:3.8141;stroke-miterlimit:10;}
+.st1{fill:none;stroke:#010202;stroke-width:20.1015;stroke-linecap:round;stroke-miterlimit:10;}
+  /*************/
+ /* KEYFRAMES */
+/*************/
 
 
-
+@keyframes anim {
+  0% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
 
 
 

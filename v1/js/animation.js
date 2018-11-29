@@ -19,7 +19,6 @@ $(document).ready(function () {
     });
     
     
-    
     // PEPIN ANIM
     particlesJS.load('pepin','pepin.json'); 
     
