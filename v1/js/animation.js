@@ -18,6 +18,25 @@ $(document).ready(function () {
         $('nav').toggleClass('active');
     });
     
+    // FLECHES "SLIDER"
+    $positiong= 0;
+    $positiond= 0;
+    $('.btn_g').click(function(){
+        $positiond= $positiond + 100;
+        $positiong= $positiong + 100;
+        $('#services').css('right', $positiond + 'vw');
+    });
+    $('.btn_d').click(function(){
+        $positiong= $positiong - 100;
+        $positiond= $positiond - 100;
+        $('#services').css('left', $positiond + 'vw');
+    });
+    $('.gg').click(function(){
+        $('#services').css('left','0vw');
+    });
+    $('.dd').click(function(){
+        $('#services').css('left','100vw');
+    });
     
     // PEPIN ANIM
     particlesJS.load('pepin','pepin.json'); 
